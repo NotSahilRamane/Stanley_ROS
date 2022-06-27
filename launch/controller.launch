@@ -1,0 +1,4 @@
+<launch>
+    <node name="control_pid_stanley" pkg="control_pid_stanley" type="main.py" output="screen">
+    </node>
+</launch>
