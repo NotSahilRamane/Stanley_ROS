@@ -14,7 +14,6 @@ find_package(catkin REQUIRED COMPONENTS
   sensor_msgs
   geometry_msgs
   nav_msgs
-  av_messages
   carla_msgs
   )
 
@@ -24,12 +23,11 @@ set(PROJECT_DEPS
   sensor_msgs
   geometry_msgs
   nav_msgs
-  av_messages
   carla_msgs
   )
 
 catkin_package(
-  CATKIN_DEPENDS std_msgs carla_msgs geometry_msgs nav_msgs sensor_msgs av_messages # Needed to generate custom messages
+  CATKIN_DEPENDS std_msgs carla_msgs geometry_msgs nav_msgs sensor_msgs # Needed to generate custom messages
 )
 
 include_directories(
